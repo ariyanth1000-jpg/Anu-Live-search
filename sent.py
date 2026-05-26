@@ -9,7 +9,7 @@ from telethon import TelegramClient
 api_id = int(os.getenv("API_ID", "123456"))
 api_hash = os.getenv("API_HASH", "your_api_hash")
 
-SESSION_NAME = "panel_session"
+SESSION_NAME = "tamim_session"
 
 GROUP_IDS = [
     "-1003771161345",
@@ -257,7 +257,7 @@ z-index:9999;
 <div class="searchbox">
 
 <textarea id="search"
-placeholder=" ⛶ Paste Numbers... ⎙"
+placeholder=" ⛶ Paste Numbers...⎙"
 oninput="saveSearch(); filter();"></textarea>
 
 <button onclick="clearSearch()">Clear</button>
@@ -266,7 +266,7 @@ oninput="saveSearch(); filter();"></textarea>
 
 <div id="data"></div>
 
-<div id="toast" class="toast"> ⧉ COPIED ✔ </div>
+<div id="toast" class="toast"> ⧉ COPIED ✅ </div>
 
 <script>
 
