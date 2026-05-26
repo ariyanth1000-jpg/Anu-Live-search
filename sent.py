@@ -12,7 +12,7 @@ api_hash = os.getenv("API_HASH", "your_api_hash")
 SESSION_NAME = "tamim_session"
 
 GROUP_IDS = [
-    "-1003771161345",
+    "-1003939290568",
     "-1002531902737",
     "-1002567258773",
     "-1002652123574",
@@ -277,7 +277,7 @@ let gid = "";
 
 const RULES = {
 
-    "-1003771161345": { start: 3, end: 2 },
+    "-1003939290568": { start: 7, end: 2 },
     "-1002531902737": { start: 4, end: 4 },
     "-1002567258773": { start: 2, end: 4 },
     "-1002652123574": { start: 5, end: 3 },
@@ -398,7 +398,7 @@ function render(){
 
                     <div class="num" onclick="copyText('${q}')">${q}</div>
 
-                    <div class="pending">Waiting🌀</div>
+                    <div class="pending">Waiting ↻ </div>
 
                 </div>`;
             }
