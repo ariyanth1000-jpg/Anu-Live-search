@@ -459,7 +459,7 @@ function init(){
     groups.forEach((g,i)=>{
         let o = document.createElement("option");
         o.value = g;
-        o.innerText = "Range ID " + String(i+1).padStart(2,"0");
+        o.innerText = "TA Range ID " + String(i+1).padStart(2,"0");
         sel.appendChild(o);
     });
 
