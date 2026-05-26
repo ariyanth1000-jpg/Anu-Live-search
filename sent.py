@@ -257,7 +257,7 @@ z-index:9999;
 <div class="searchbox">
 
 <textarea id="search"
-placeholder="Paste Numbers..."
+placeholder="⛶ Paste Numbers...⎙"
 oninput="saveSearch(); filter();"></textarea>
 
 <button onclick="clearSearch()">Clear</button>
