@@ -248,7 +248,7 @@ z-index:9999;
 
 <body>
 
-<div class="header">LIVE OTP SYSTEM</div>
+<div class="header">🖥️ TA LIVE CODE 📊</div>
 
 <center>
 <select id="gid" onchange="changeGroup()"></select>
@@ -266,7 +266,7 @@ oninput="saveSearch(); filter();"></textarea>
 
 <div id="data"></div>
 
-<div id="toast" class="toast">COPY SUCCESSFUL ✅</div>
+<div id="toast" class="toast">⧉ COPIED ✔</div>
 
 <script>
 
@@ -283,10 +283,10 @@ const RULES = {
     "-1002652123574": { start: 5, end: 3 },
     "-1003861246919": { start: 2, end: 5 },
     "-1003435291410": { start: 3, end: 4 },
-    "-1003775658194": { start: 0, end: 0 },
-    "-1002898987582": { start: 0, end: 0 },
-    "-1003463811076": { start: 0, end: 0 },
-    "-1003357916577": { start: 0, end: 0 }
+    "-1003775658194": { start: 2, end: 2 },
+    "-1002898987582": { start: 2, end: 2 },
+    "-1003463811076": { start: 2, end: 2 },
+    "-1003357916577": { start: 2, end: 2 }
 
 };
 
@@ -398,7 +398,7 @@ function render(){
 
                     <div class="num" onclick="copyText('${q}')">${q}</div>
 
-                    <div class="pending">PENDING</div>
+                    <div class="pending">Waiting ↻</div>
 
                 </div>`;
             }
