@@ -24,7 +24,7 @@ GROUP_IDS = [
     "-1003357916577",
 ]
 
-LIMIT = 100
+LIMIT = 300
 ACTIVE_GROUP = GROUP_IDS[0]
 
 client = TelegramClient(SESSION_NAME, api_id, api_hash)
@@ -266,7 +266,7 @@ oninput="saveSearch(); filter();"></textarea>
 
 <div id="data"></div>
 
-<div id="toast" class="toast">COPIED ✅</div>
+<div id="toast" class="toast">COPY SUCCESSFUL ✅</div>
 
 <script>
 
@@ -282,7 +282,7 @@ const RULES = {
     "-1002567258773": { start: 2, end: 4 },
     "-1002652123574": { start: 5, end: 3 },
     "-1003861246919": { start: 2, end: 5 },
-    "-1003435291410": { start: 0, end: 0 },
+    "-1003435291410": { start: 3, end: 4 },
     "-1003775658194": { start: 0, end: 0 },
     "-1002898987582": { start: 0, end: 0 },
     "-1003463811076": { start: 0, end: 0 },
