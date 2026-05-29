@@ -24,7 +24,7 @@ GROUP_IDS = [
     "-1003357916577",
 ]
 
-LIMIT = 1000
+LIMIT = 200
 ACTIVE_GROUP = GROUP_IDS[0]
 
 client = TelegramClient(SESSION_NAME, api_id, api_hash)
